@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Bot_controller.Api/Bot_controller.Api.csproj" />
+    <Project Path="src/Bot_controller.Lib/Bot_controller.Lib.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Badger Bot Controller</title>
+</head>
+<body>
+    <h1>Badger Bot Controller</h1>
+    <p>API: <strong id="api-indicator">connecting…</strong></p>
+
+    <button id="start-button" type="button">Start match</button>
+    <button id="stop-button" type="button" disabled>Stop</button>
+
+    <p>
+        Phase: <strong id="phase">–</strong> ·
+        Tick: <span id="tick">0</span> ·
+        Ore: <span id="ore">0</span> ·
+        Units: <span id="units">0</span>
+    </p>
+    <p><a id="watch-link" target="_blank" rel="noopener" hidden>Watch the match</a></p>
+
+    <h2>Log</h2>
+    <pre id="log"></pre>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
